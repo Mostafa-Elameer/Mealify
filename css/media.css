@@ -1,0 +1,80 @@
+@media (max-width: 620px) {
+  /*========== nav  ========= */
+  nav .continer {
+  }
+  nav .logo span {
+    font-size: 20px;
+    width: 20%;
+  }
+  nav ul li {
+    padding: 3px;
+  }
+  
+  .scrol {
+    opacity: 0;
+  }
+
+  /*========== home  ========= */
+  section.home {
+    height: auto;
+  }
+
+  section.home .continer {
+    padding: 100px 0 30px 0;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  section.home .continer .article {
+    width: 100%;
+    order: 1;
+  }
+
+  section.home .continer .img {
+    width: 100%;
+  }
+
+  section.home svg {
+    opacity: 0;
+  }
+
+  /*========== chef ========= */
+  section.chef .continer {
+    width: 90%;
+  }
+  section.chef .continer .card {
+    width: 100%;
+  }
+
+  /*==========GALLERY ========= */
+  section.gallery .continer {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  /*========== contact ========= */
+  section.contact .continer .item {
+    flex-basis: 100%;
+  }
+  section.contact .continer .map {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  section.contact .continer form {
+    width: 100%;
+  }
+
+  section.contact .continer form .row-1 input {
+    width: 100%;
+  }
+
+  /*========== footer ========= */
+  footer .continer .part-1,
+  footer .continer .part-2,
+  footer .continer .part-3 {
+    flex-basis: 100%;
+  }
+}

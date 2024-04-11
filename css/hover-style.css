@@ -1,0 +1,157 @@
+*::selection {
+  background-color: #d85454;
+  color: rgb(236, 224, 202);
+}
+
+/*========== nav  ========= */
+nav ul li a:hover::after {
+  left: 0;
+  opacity: 1;
+}
+
+nav:hover::after {
+  left: 0;
+}
+
+/*========== home  ========= */
+
+section.home .continer button:hover {
+  background-color: #ff0000;
+}
+
+section.home .continer .button .watch:hover,
+section.home .continer .button .watch:hover a {
+  color: #ce1212;
+}
+
+section.home .continer .button .watch:hover i {
+  transform: translate(5px) rotate(360deg);
+}
+
+/*========== chef ========= */
+section.chef .continer .card:hover .icon-social {
+  left: 85%;
+  opacity: 1;
+}
+
+section.chef .continer .card:hover .img img {
+  transform: scale(1.1);
+}
+
+section.chef .continer .card:hover svg {
+  transform: scale(1.5);
+}
+
+section.chef .continer .card .icon-social i:hover {
+  color: #ce1212;
+}
+
+/*==========GALLERY ========= */
+section.gallery .continer .column .img:hover .layer {
+  top: 0;
+  opacity: 1;
+}
+
+section.gallery .continer .column .img:hover img {
+  transform: scale(1.2);
+}
+
+/*========== contact ========= */
+section.contact .continer .item:hover .icon i {
+  transform: rotate(360deg) scale(1.3);
+}
+
+section.contact .continer form input:hover {
+  border: #ce1212 solid 2px;
+  border-radius: 10px;
+}
+
+section.contact .continer form button:hover {
+  background-color: #ff0000;
+}
+
+/*========== footer ========= */
+
+footer .continer .part-1 .icon-social-fo i:hover {
+  color: #ce1212;
+}
+
+footer .continer .part-2 li:hover {
+  color: #ce1212;
+  transform: translate(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+footer:hover img {
+  transform: scale(1.3) rotate(360deg);
+}
+
+footer .continer .part-2 form button:hover {
+  background-color: #ff0000;
+}
+
+footer .continer .part-3 li:hover {
+  font-size: 20px;
+  transform: translate(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+section.home .continer img:hover {
+  animation: rotate 1.5s infinite;
+}
+
+/*========== ainmition ========= */
+
+@keyframes rotate {
+  20% {
+    transform: rotate(1deg) rotate(5deg) translate(3px);
+  }
+  30% {
+    transform: rotate(1deg) rotate(-2deg) translate(-3px);
+  }
+
+  40% {
+    transform: rotate(1deg) rotate(5deg) translate(3px);
+  }
+
+  50% {
+    transform: rotate(1deg) rotate(-2deg) translate(-3px);
+  }
+
+  60% {
+    transform: rotate(1deg) rotate(2deg) translate(3px);
+  }
+
+  70% {
+    transform: rotate(1deg) rotate(-2deg) translate(-3px) translateY(3px);
+  }
+
+  80% {
+    transform: rotate(1deg) rotate(2deg) translate(3px) translateY(-2px);
+  }
+
+  90% {
+    transform: rotate(1deg) rotate(-2deg) translate(-3px) translateY(3px);
+  }
+
+  100% {
+    transform: rotate(1deg) rotate(2deg) translate(3px) translateY(-2px);
+  }
+}
+
+@keyframes for-span {
+  0% {
+    color: #020102;
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes arrow {
+  0% {transform: translateY(80px);}
+}
+
+
+/*  */
